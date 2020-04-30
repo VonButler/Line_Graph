@@ -7,7 +7,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-['Year', 'No Digital Mammography Access within 20 minute drive from 2010-2014', 'No access to any Mammography within 20 minutes'],
+['Year', 'No Digital Mammography Access', 'No access to any Mammography'],
 ['2010', 3521, 9146],
 ['2011', 2079, 9168],
 ['2012', 1169, 9230],
@@ -16,7 +16,7 @@
         ]);
 
         var options = {
-          title: 'Company Performance',
+          title: 'Lack of Mammography Access: Digital vs. General',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
